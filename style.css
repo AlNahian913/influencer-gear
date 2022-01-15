@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Anton&family=Changa:wght@700&family=Poppins:ital,wght@1,500&family=Shizuru&display=swap');
+body{
+    font-family: 'Alata', sans-serif;
+}
+
+
+/*-----------
+ header-style
+ ------------- */
+
+ /* Menu Bar */
+
+ .influence{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #3A3A3A;
+     height: 30px;
+     width: 90px;
+     padding: 10px;
+     margin-bottom: 20px;
+     margin-left: 30px;
+ }
+ nav ul li{
+     list-style-type: none;
+     display: inline;
+     margin-right: 10px;
+ }
+ /*-----------------
+  The Journey Starts
+ ------------- */
+ .introduction{
+     display: flex;
+     align-items: center;
+ }
+ .start-journey{
+     width: 50%;
+     padding-left: 50px;
+ }
+ .info{
+     font-size: 50px;
+     font-weight: 700;
+     
+     color: blanchedalmond;
+ }
+ .introduction img{
+     height: 400px;
+     width: 400px;
+ }
