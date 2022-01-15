@@ -115,6 +115,10 @@ body{
 
          @media only screen and (max-width: 688px;) 
         {
+            /* influence part */
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
             /* introduction part */
             .introduction{
                 flex-direction: column;
