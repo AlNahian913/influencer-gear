@@ -108,3 +108,34 @@ body{
             grid-template-columns: repeat(1,1fr);
 
         }
+        /* ------------------
+        Media Query
+        ---------------------- */
+        /* Mobile Devices*/
+
+         @media only screen and (max-width: 688px;) 
+        {
+            /* introduction part */
+            .introduction{
+                flex-direction: column;
+                width: 100%;
+            }
+            .introduction, .container{
+                grid-template-columns: repeat(1, 1fr);
+            } 
+           
+        }
+        /* Tablet Devices */
+        @media only screen and (min-width: 668px) and (max-width:992px) {
+           
+            .introduction{
+                width: 100%;
+            }
+            .container, .introduction{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            
+        }
+         
+             
+         
